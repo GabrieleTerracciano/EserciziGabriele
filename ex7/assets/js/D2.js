@@ -75,7 +75,7 @@ if (Carrello > 50) {
   Totale = Carrello;
   console.log('Totale (spedizione gratuita)= ' + Totale);
 } else {
-  totalAmount = Carrello + Costidispedizione;
+  Totale = Carrello + Costidispedizione;
   console.log('Totale (con spedizione)= ' + Totale);
 }
 
